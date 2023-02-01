@@ -1,0 +1,124 @@
+@media (max-width:1180px) {
+    .title {
+        width: 400px;
+    }
+
+    .imageMario {
+        width: 400px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerOne {
+        text-align: center;
+    }
+
+    .paragraph {
+        width: 400px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:800px) {
+    .logo {
+        width: 80px;
+        margin-left: 40px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .title {
+        width: 300px;
+    }
+
+    .imageMario {
+        width: 300px;
+    }
+
+    .paragraph {
+        width: 300px;
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 15px;
+    }
+
+    .modal{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .closeModal{
+        width: 30px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:440px) {
+    body {
+        background-color: black;
+    }
+    .header {
+        justify-content: center;
+    }
+    .menu{
+        margin: auto;
+    }
+    .fundoVideo {
+        display: none;
+    }
+
+    .title {
+        width: 250px;
+    }
+
+    .imageMario {
+        width: 250px;
+    }
+
+    .paragraph {
+        width: 250px;
+        font-size: 10px;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+    .modal{
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .closeModal{
+        width: 20px;
+        font-size: 05px;
+    }
+}
+@media (max-width:350px){
+    .logo{
+        margin-left: 30px;
+    }
+    .modal{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .closeModal{
+        width: 10px;
+        font-size: 2px;
+    }
+}
